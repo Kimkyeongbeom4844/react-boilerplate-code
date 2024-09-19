@@ -4,7 +4,6 @@ const initialState = {
 	/**
 	 * 로딩상태
 	 * @type {boolean}
-	 * @author sangheon
 	 */
 	isLoading: false,
 };
@@ -15,7 +14,6 @@ const spinnerSlice = createSlice({
 	reducers: {
 		/**
 		 * 스피너 활성화
-		 * @author sangheon
 		 */
 		activeSpinner: (state) => {
 			state.isLoading = true;
@@ -23,7 +21,6 @@ const spinnerSlice = createSlice({
 
 		/**
 		 * 스피너 비활성화
-		 * @author sangheon
 		 */
 		disableSpinner: (state) => {
 			state.isLoading = false;

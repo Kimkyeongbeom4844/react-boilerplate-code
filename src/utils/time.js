@@ -4,8 +4,6 @@ import dayjs from 'dayjs';
 export const time = {
 	/**
 	 * 현재 날짜 값을 반환하는 함수
-	 *
-	 * @author taehyun
 	 * @returns 현재 날짜 값
 	 */
 	getCurrentTime: () => {
@@ -15,7 +13,6 @@ export const time = {
 	/**
 	 * 원하는 포맷으로 날짜값 변환
 	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @param  {String} format 변환할 포맷
 	 * @returns 해당 날짜 값을 입력한 포맷대로 변환하여 반환
@@ -26,8 +23,6 @@ export const time = {
 
 	/**
 	 * 년도 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 '년도' 값 반환
 	 */
@@ -37,8 +32,6 @@ export const time = {
 
 	/**
 	 * 달 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 '월' 값 반환
 	 */
@@ -48,8 +41,6 @@ export const time = {
 
 	/**
 	 * 일 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 '일' 값 반환
 	 */
@@ -59,7 +50,6 @@ export const time = {
 
 	/**
 	 * 요일 반환(한글)
-	 *
 	 * @param  {String} time 날짜 값
 	 * @return 해당 날짜 값 중 요일 값 한글 반환 (일:0 ~ 토:6)
 	 * @author kyeongbeom
@@ -72,8 +62,6 @@ export const time = {
 
 	/**
 	 * 요일 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 요일 값 반환 (일:0 ~ 토:6)
 	 */
@@ -83,8 +71,6 @@ export const time = {
 
 	/**
 	 * 시간 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 '시간' 값 반환
 	 */
@@ -94,8 +80,6 @@ export const time = {
 
 	/**
 	 * 분 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 '분' 값 반환
 	 */
@@ -105,8 +89,6 @@ export const time = {
 
 	/**
 	 * 초 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time 날짜 값
 	 * @returns 해당 날짜 값 중 '초'
 	 */
@@ -116,8 +98,6 @@ export const time = {
 
 	/**
 	 * 두 시간의 차이를 반환
-	 *
-	 * @author taehyun
 	 * @param  {String} time1 날짜 값
 	 * @param  {String} time2 날짜 값
 	 * @returns 두 시간의 차이를 년도, 달, 주, 일, 시간, 분, 초로 저장하여 반환
@@ -143,8 +123,6 @@ export const time = {
 
 	/**
 	 * 날짜가 지정한 시간 단위에서 특정 날짜와 일치하는지 구하기
-	 *
-	 * @author taehyun
 	 * @param  {String} time1 날짜 값
 	 * @param  {String} time2 날짜 값
 	 * @returns 두 날짜 (y-m-d)가 같은지 다른지 boolean 값으로 반환
@@ -156,8 +134,6 @@ export const time = {
 
 	/**
 	 * 날짜가 지정한 시작, 종료 시간에 포함되는지 여부 반환하기
-	 *
-	 * @author taehyun
 	 * @param  {String} startTime 시작 날짜 값
 	 * @param  {String} endTime 종료 날짜 값
 	 * @param {String} compareTime 비교할 날짜 값 undefined로 넣으면 자동으로 오늘 날짜로 대체됨

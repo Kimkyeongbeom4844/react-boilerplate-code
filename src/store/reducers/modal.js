@@ -4,7 +4,6 @@ const initialState = {
 	/**
 	 * 모달 컴포넌트 배열
 	 * @type {Promise[]}
-	 * @author sangheon
 	 */
 	modalList: [],
 };
@@ -15,7 +14,6 @@ const modalSlice = createSlice({
 	reducers: {
 		/**
 		 * 상태 초기화
-		 * @author sangheon
 		 */
 		$reset: (state) => {
 			state.modalList = [];
@@ -23,7 +21,6 @@ const modalSlice = createSlice({
 
 		/**
 		 * 모달 제거
-		 * @author sangheon
 		 */
 		disableModal: (state) => {
 			state.modalList.pop();
@@ -31,7 +28,6 @@ const modalSlice = createSlice({
 
 		/**
 		 * 모달 셋팅
-		 * @author sangheon
 		 */
 		setComponent: (state, action) => {
 			console.log(action.payload);
